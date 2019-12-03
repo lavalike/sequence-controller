@@ -31,7 +31,7 @@ publish {
     userOrg = 'lavalike'
     groupId = 'com.wangzhen'
     artifactId = 'sequence-controller'
-    publishVersion = '0.0.1'
+    publishVersion = '0.0.2'
     desc = 'A controller to keep tasks be executed in order.'
-    website = 'https://github.com/lavalike/download-client-android.git'
+    website = 'https://github.com/lavalike/sequence-controller.git'
 }
