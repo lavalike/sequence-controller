@@ -10,8 +10,8 @@ import java.util.Queue;
  * Created by wangzhen on 2019-12-03.
  */
 public final class SequenceControllerImpl implements SequenceController {
-    private Activity activity;
-    private Queue<SequenceTask> mTaskQueue = new LinkedList<>();
+    private final Activity activity;
+    private final Queue<SequenceTask> mTaskQueue = new LinkedList<>();
 
     public SequenceControllerImpl(Activity activity) {
         if (activity == null)
